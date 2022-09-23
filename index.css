@@ -13,7 +13,7 @@ body {
 }
 .calculator {
   height: 740px;
-  width: 500px;
+  width: fit-content;
   background: black;
   border-radius: 50px;
   color: white;
@@ -43,6 +43,7 @@ body {
   grid-template-rows: repeat(5, 1fr);
 }
 .button {
+  user-select: none;
   width: 80px;
   height: 80px;
   background-color: #333333;
@@ -62,7 +63,7 @@ body {
 }
 .n0 {
   grid-column: 1 / span 2;
-  width: 215px;
+  width: 170px;
   border-radius: 50px;
   justify-content: flex-start;
   padding-left: 40px;
